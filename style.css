@@ -27,6 +27,14 @@
     height: 100px;
     justify-content: center;
 }
-
+.exe4 {
+    border-bottom: 2px solid black;
+   } 
+.exe5 {
+    border-bottom: 2px solid black;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+   } 
     
     
