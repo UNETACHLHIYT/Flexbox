@@ -12,3 +12,21 @@
     border-bottom: 2px solid black;
    
    }
+   .exe2 {
+    display: flex;
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+ .exe3 {
+    display: flex;
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+}
+
+    
+    
