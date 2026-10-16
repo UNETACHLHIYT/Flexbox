@@ -1,0 +1,14 @@
+.boite{
+    width: 40px;
+    height: 40px;
+    border: solid black 2px;
+    border-radius: 4px;
+    margin: 4px;
+    background-color: pink;
+
+    }
+  .exe1  {
+    display: flex;
+    border-bottom: 2px solid black;
+   
+   }
