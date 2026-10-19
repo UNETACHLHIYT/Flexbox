@@ -1,40 +1,71 @@
-.boite{
+.boite {
     width: 40px;
     height: 40px;
-    border: solid black 2px;
+    border: 2px solid black;
     border-radius: 4px;
     margin: 4px;
     background-color: pink;
+}
 
-    }
-  .exe1  {
-    display: flex;
-    border-bottom: 2px solid black;
-   
-   }
-   .exe2 {
-    display: flex;
-    border-bottom: 2px solid black;
-    width: 100%;
-    height: 100px;
-    align-items: center;
-    justify-content: space-between;
-}
- .exe3 {
-    display: flex;
-    border-bottom: 2px solid black;
-    width: 100%;
-    height: 100px;
-    justify-content: center;
-}
-.exe4 {
-    border-bottom: 2px solid black;
-   } 
+.exe1,
+.exe2,
+.exe3,
+.exe4,
 .exe5 {
+    display: flex;
+    width: 100%;
+    height: 100px;
     border-bottom: 2px solid black;
+}
+
+/* Exercice 1 : boîtes en ligne, collées à gauche (comportement par défaut) */
+.exe1 {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Exercice 2 : une à gauche, une au milieu, une à droite, centrées verticalement */
+.exe2 {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Exercice 3 : les trois boîtes groupées au centre, en haut */
+.exe3 {
+    justify-content: centedir;
+    align-items: flex-start;
+}
+
+/* Exercice 4 : les trois boîtes groupées en bas à droite */
+.exe4 {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* Exercice 5 : empilées en colonne, centrées horizontalement */
+.exe5 {
     flex-direction: column;
     align-items: center;
+    height: auto;
+}
+.exe6 {
+    height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.exe7-vertical {
     display: flex;
-   } 
+  flex-direction: column;
+  gap: 15px;
     
+}
+.exe7-horizontal {
+   display: flex;
+  flex-direction: row;
+  gap: 10px;
     
+}
+
+
